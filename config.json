@@ -1,0 +1,34 @@
+[
+    {
+      "active": true,
+      "taskName": "Приветствие друзей",
+      "targetUsers": [
+        "Player1",
+        "BestFriend"
+      ],
+      "messages": [
+        "О, {username} снова в деле! Привет!",
+        "Рады тебя видеть, {username}!"
+      ]
+    },
+    {
+      "active": false,
+      "taskName": "Тестовая группа (неактивна)",
+      "targetUsers": [
+        "tester"
+      ],
+      "messages": [
+        "Тестовое приветствие для {username}."
+      ]
+    },
+    {
+        "active": true,
+        "taskName": "для мерки",
+        "targetUsers": [
+          "merka"
+        ],
+        "messages": [
+          "ПРИВЕТ {username}!"
+        ]
+      }
+  ]
