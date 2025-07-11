@@ -1,16 +1,20 @@
 {
-    "name": "welcome-message",
-    "version": "1.0.0",
-    "description": "Отправляет приветственное сообщение, когда в игру заходит игрок из настроенного списка.",
-    "main": "index.js",
-    "botpanel": {
-      "settings": {
-        "tasks": {
-          "type": "json_file",
-          "label": "Задания для приветствий",
-          "description": "Настройте группы игроков и сообщения для них. Отредактируйте JSON, чтобы добавить или изменить задания.",
-          "defaultPath": "config.json"
-        }
+  "name": "welcome-message-copy",
+  "version": "1.0.1",
+  "description": "Отправляет приветственное сообщение, когда в игру заходит игрок из настроенного списка.",
+  "main": "index.js",
+  "botpanel": {
+    "settings": {
+      "tasks": {
+        "type": "json_file",
+        "label": "Задания для приветствий",
+        "description": "Настройте группы игроков и сообщения для них. Отредактируйте JSON, чтобы добавить или изменить задания.",
+        "defaultPath": "config.json"
       }
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blockmineJS/welcome-message"
   }
+}
