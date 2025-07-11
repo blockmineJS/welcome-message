@@ -1,7 +1,7 @@
 [
     {
-      "active": true,
-      "taskName": "Приветствие друзей",
+      "active": false,
+      "taskName": "Приветствие друзей. true в active для активации",
       "targetUsers": [
         "Player1",
         "BestFriend"
@@ -22,8 +22,8 @@
       ]
     },
     {
-        "active": true,
-        "taskName": "для мерки",
+        "active": false,
+        "taskName": "для мерки. пример",
         "targetUsers": [
           "merka"
         ],
